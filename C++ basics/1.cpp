@@ -14,31 +14,38 @@ int main()
     // char , int , float , double , bool
 
     char ch = 'a';
-    cout<<ch<<endl;
+    cout << ch << endl;
 
     int a = 3;
-    cout<<a<<endl;
+    cout << a << endl;
 
     double b = 3.5;
-    cout<<b<<endl;
+    cout << b << endl;
 
     bool d = false;
-    cout<<d<<endl;
+    cout << d << endl;
 
     // modulo operator
-    cout << 20%7 << endl;
+    cout << 20 % 7 << endl;
 
     // increment operator
     int z = 5;
     cout << ++z << endl; // pehle increment fir use
     cout << z++ << endl; // pehle use fir increment
-    cout << z << endl; 
+    cout << z << endl;
 
     // decrement operator
     int y = 5;
     cout << --y << endl; // pehle decrement fir use
-    cout << y-- << endl; // pehle use fir decrement 
+    cout << y-- << endl; // pehle use fir decrement
     cout << y << endl;
+
+    // type casting
+    char chh1 = 'a';
+    char chh2 = 'c';
+    cout << (int)chh1 << endl;
+    cout << (int)chh2 << endl;
+    cout << chh1-chh2 << endl;
 
     return 0;
 }
