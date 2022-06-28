@@ -25,8 +25,7 @@ int main()
 {
     int l,b;
     cin>>l>>b;
-    long long int area = 1LL * l * b;
-    cout<<area<<endl;
+    cout << 1LL * l * b << endl;
 
     return 0;
 }
